@@ -38,4 +38,7 @@ function displayTime() {
     sec.style.transform = `rotate(${sRotation}deg)`;
 }
 
+// for 1st time render
+displayTime();
+
 setInterval(displayTime, 1000);
